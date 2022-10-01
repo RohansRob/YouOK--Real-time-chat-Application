@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealTime chat app</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- FrontEnd part -->
+    <section class="chat__section">
+        <div class="brand">
+    <!-- all static files in public folder soo -->
+            <img height="40" src="/youok.png" alt="">
+            <h1>YouOk!</h1>
+        </div>
+        <div class="message__area"></div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1"  placeholder="Write a message..."></textarea>
+    
+  <!-- <button type="button">Send</button> -->
+        </div>
+    </section>
+    <!-- coming from nodeServer -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>

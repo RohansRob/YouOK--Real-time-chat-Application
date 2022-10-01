@@ -1,3 +1,9 @@
-# YouOK--Real-time-chat-Application
-# Demo
-![Animation](https://user-images.githubusercontent.com/106212014/193400646-31f55dc6-2325-4d07-a00e-792dd64868a3.gif)
+# realtime-chat-app
+Realtime chat app using socket.io and vanilla JavaScript
+
+#### Demo: https://realtime-gyan-chat-app.herokuapp.com/
+
+## Installation 
+After download or clone run `npm install` to install all the dependancies.
+
+🙏 If you find this repo helpful then don't forget to give a start ❇️ to this repository. :)
